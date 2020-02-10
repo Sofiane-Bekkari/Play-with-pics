@@ -1,0 +1,22 @@
+{
+  "name": "play_with_images",
+  "version": "1.0.0",
+  "description": "Mini game\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[D\u001b[D click game",
+  "main": "p5.dom.min.js",
+  "homepage": "https://Sofiane-Bekkari.github.io/Play-with-pics",
+  "scripts": {
+    "deploy": "gh-pages -d img"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofiane-Bekkari/Play-with-pics.git"
+  },
+  "author": "Sofiane Bekkari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sofiane-Bekkari/Play-with-pics/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

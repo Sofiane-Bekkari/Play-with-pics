@@ -5,7 +5,7 @@ let me = 0;
 
 function preload() {
   for (let z = 0; z < 6; z++) { 
-    Pics[z] = loadImage('Img/spong' + z + '.png');
+    Pics[z] = loadImage('spong' + z + '.png');
   }
 }
 
@@ -21,7 +21,7 @@ function setup() {
   }
    let x = 100;
    let y = 100;
-   let Npic = loadImage('Img/Magic-wand.png')
+   let Npic = loadImage('Magic-wand.png')
    let img = random(Pics)
    me = new thing(x,y,60,Npic); 
 }
