@@ -1,6 +1,6 @@
 let spot = [] ;
 let Pic ;
-let Pics = []
+let Pics = [] ;
 let me = 0;
 
 function preload() {
@@ -14,7 +14,7 @@ function setup() {
   for (let i = 0; i < 10; i++) {
     let x = random(0,400);
     let y = random(10,450);
-    let r = random(25,100)
+    let r = random(35,100)
     let img = random(Pics);
     let b = new thing(x,y,r,img);
     spot.push(b);
@@ -59,7 +59,7 @@ class thing {
     if (px > this.x && px < this.x + this.r && py > this.y && py < this.y + this.r) {
       this.img = random(Pics)
       textSize(70)
-      text('Well Done',30,200)
+      text('Woohw!',100,200)
       console.log('here!!');
     } 
   }
