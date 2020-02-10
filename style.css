@@ -1,0 +1,6 @@
+html, body {
+  padding: 1em;
+}
+canvas {
+  display: block;
+}
